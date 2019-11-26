@@ -1,9 +1,7 @@
 language: node_js
+
 node_js:
-  - "7"
-  
-script:
-- yarn install
+  - "6"
 
 after_success:
 - bash <(curl -s https://scripts.scantist.com/ci-travis.sh)
